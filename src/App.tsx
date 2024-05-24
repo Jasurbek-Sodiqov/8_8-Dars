@@ -20,26 +20,22 @@ const options = {
           hour: "HH:mm",
         },
         ticks: {
-          color: "#FFFFFF",
+          color: "#0c0909",
         },
       },
       ticks: {
-        color: "#FFFFFF",
+        color: "#130d0d",
       },
-    },
+      
+    },  
     y: {
       type: "linear",
-      position: "right",
+
       ticks: {
-        color: "#FFFFFF",
+        color: "#141111",
       },
-      grid: {
-        display: true,
-        color: "#ffffff48",
-      },
-      border: {
-        display: false,
-      },
+
+
     },
   },
 } as ChartOptions<"line">;
